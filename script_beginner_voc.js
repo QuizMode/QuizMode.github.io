@@ -1,21 +1,61 @@
 let data = [
-    {question:"Let's call it a day?", 
-    ans1: "Let's finish working",
-    ans2: "It's daytime",
-    ans3: "Let's start working", 
+    {question:"The sun shines …", 
+    ans1: "brightly",
+    ans2: "snowy",
+    ans3: "cloudy", 
     right_ans: 1
 }, 
-{question:"A piece of cake", 
-    ans1: "It's just a piece of cake!",
-    ans2: "Easy",
-    ans3: "Don't eat my cake", 
+{question:"The sky is … There’re no clouds.", 
+    ans1: "fine",
+    ans2: "clear",
+    ans3: "cloudy", 
     right_ans: 2
 },
-{question:"When pigs can fly", 
-    ans1: "Do pigs fly?",
-    ans2: "When a pig is able to take off",
-    ans3: "Never-ever", 
+{question:"The wind is …", 
+    ans1: "blowing",
+    ans2: "shining",
+    ans3: "raining", 
+    right_ans: 1
+
+},
+{question:"Take your coat. It has …", 
+    ans1: "got warmer",
+    ans2: "colder",
+    ans3: "got colder", 
     right_ans: 3
+},
+{question:"The … is fine. The sun is …", 
+    ans1: "weather, blowing",
+    ans2: "weather, shining",
+    ans3: "sky, shining", 
+    right_ans: 2
+},
+{question:"It’s … It’s +28°C.", 
+    ans1: "cold",
+    ans2: "warm",
+    ans3: "hot", 
+    right_ans: 3
+},
+{question:"It’s … It’s -10°C. ", 
+    ans1: "cold",
+    ans2: "warm",
+    ans3: "hot", 
+    right_ans: 1
+},{question:"The weather is … here. It was -10°C yesterday and now it is +5°C.", 
+ans1: "terrible",
+ans2: "cold",
+ans3: "changeable", 
+right_ans: 3
+},{question:" Ann likes when it’s +19°C. She likes … weather.", 
+ans1: "cold",
+ans2: "warm",
+ans3: "hot", 
+right_ans: 2
+},{question:"We can’t see the horizon because it’s …", 
+ans1: "foggy",
+ans2: "cloudy",
+ans3: "raining", 
+right_ans: 1
 }
 ]
 let test= document.querySelector(".test")
