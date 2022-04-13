@@ -1,3 +1,6 @@
+document.querySelector(".button").addEventListener("click", function(){
+    document.location.href = "./beginner_voc_theory_test1.html"
+})
 let data = [
     {question:"The sun shines …", 
     ans1: "brightly",
@@ -99,3 +102,9 @@ checkButton.addEventListener("click",function(){
     }
     tableResults.innerHTML+=`<tr><td>Your result is</td><td>${a}/${questions.length}</td></tr>`
 })
+// return to the homepage
+document.querySelector(".logo").addEventListener("click", function(){
+    document.location.href = "./index.html"
+})
+
+
