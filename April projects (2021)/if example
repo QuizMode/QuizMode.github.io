@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="age">
+    <input type="button" onclick="myFunc()">
+    <div id="out"></div>
+<script>
+    let age = document.querySelector("#age")
+    let out = document.querySelector("#out")
+
+function myFunc() {
+    let ageVar = Number(age.value)
+    if(ageVar>18) {
+        out.innerHTML = "Продать билет"
+    }
+    else if (ageVar==18) {
+        out.innerHTML = "Проходи песплатно"
+    }
+    else {
+        out.innerHTML = "Вам еще рано"
+    }
+
+}
+
+
+</script>
+
+</body>
+</html>
